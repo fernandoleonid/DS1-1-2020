@@ -1,3 +1,4 @@
+
 <html>
    <head>
       <title>Tabuada</title>
@@ -24,9 +25,7 @@
             <div>
                <ul class="list-group mt-5">
                   <li class="list-group-item list-group-item-action list-group-item-success active text-center">Resultado</li>
-                  <?php
-                     echo include_once "tabuada.php";
-                  ?>
+                     <?php echo include_once ( "tabuada.php" ); ?>
                </ul>
             </div>
          </form>
