@@ -10,7 +10,7 @@
             <fieldset>
                 <legend>{$title}</legend>
                 <ul>
-                <li>{$elements($arr)}</li>
+                    <li>{$elements($arr)}</li>
                 </ul>
             </fieldset>
         ";
@@ -39,6 +39,12 @@
 //  $clientes = ['Fernando', 'Ana Clara','Maria'];
 //  $frutas = ['morango','banana','abacaxi'];
 //  $numeros = range (1,10);
+//  $funcionario = [
+//     "Ana" => 150,
+//     "Hugo" => 560,
+//     "Igot" => 600,
+//     "Yago" => 100
+//      ];
 // 
 // 1) Para todos os exercícios deverá ser criado um no array
 // com base no existente.
@@ -48,3 +54,4 @@
 //  d) Exibir apenas o números ímpares que não são multiplos de 3.
 //  e) Exibir o fatorial de cada número.
 //  d) Exibir a soma de todos os números pares.
+//  f) Exibir a soma dos salários dos funcionários que recebem mais de 500,00
