@@ -4,4 +4,7 @@ Aulas com objetivo de como trabalhar com vários arquivos, pensando na organiza�
 
 ## Conteúdo
 - require e include
-- segmentar o html
+- segmentar o código
+- Ternário
+- null coalescing (??)
+- encaminhador de página (quase um router)
