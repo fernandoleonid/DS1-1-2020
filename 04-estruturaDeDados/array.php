@@ -15,19 +15,23 @@
             </fieldset>
         ";
 
+    $addCliente = fn($nome) => "Funcionario:{$nome}";
 
-    // function arrayToList ( $arr, $title="lista" ) {
+    $clientes2 = array_map($addCliente , $clientes);
 
-    //     $elements = implode ("</li><li>", $arr);
-    //     return "
-    //         <fieldset>
-    //             <legend>{$title}</legend>
-    //             <ul>
-    //                 <li>{$elements}</li>
-    //             </ul>
-    //         </fieldset>
-    //     ";
-    // } 
+    $ePar = fn($numero) => $numero % 2 == 0;
+
+    $numerosPares = array_filter($numeros, $ePar);
+
+    $somar = fn($acc, $numero) => $acc + $numero; 
+
+    $total = array_reduce ($numerosPares, $somar);
+
+   
+    // echo $soma (45, 15);
+    echo $total;
+    echo arrayToList ($numerosPares,"Números Pares");
+    echo arrayToList ($clientes2,"Clientes 2");
 
     echo $arrayToList ($empresas, "Empresas");
     echo $arrayToList ($clientes, "Clientes");
