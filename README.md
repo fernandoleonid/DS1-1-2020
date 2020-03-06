@@ -3,4 +3,4 @@
 Aulas de desenvolvimento para servidores 1 em PHP realizado no 1º semestre de 2020.
 
 
-[![linkedin](https://cdn.icon-icons.com/icons2/1269/PNG/512/1497553283-108_84845.png)](https://www.linkedin.com/in/fernandoleonid)
+[![linkedin](<https://img.icons8.com/ios/50/000000/linkedin.png)](https://www.linkedin.com/in/fernandoleonid)
