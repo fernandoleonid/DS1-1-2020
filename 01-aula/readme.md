@@ -1,3 +1,3 @@
-# 1º Revisão
+#Revisão
 
 Revisão de lógica de programação
