@@ -1,0 +1,7 @@
+[
+    {"codigo":"1","nome":"Ana","idade":15, "uf":"sp","areas":["TI","RH"]},
+    {"codigo":"2","nome":"Jose","idade":45,"uf":"rj","areas":["Publicidade","ADM"]},
+    {"codigo":"3","nome":"Marta","idade":13,"uf":"mg","areas":["ADM","TI"]},
+    {"codigo":"4","nome":"Pedro","idade":28,"uf":"sp","areas":["Arquitetura","TI","BIOROBOTICA"]},
+    {"codigo":"5","nome":"Paulo","idade":67,"uf":"rj","areas":["Artes","RH"]}
+]
